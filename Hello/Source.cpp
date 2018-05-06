@@ -24,7 +24,7 @@ public:
 	}
 	~MyString()
 	{
-		cout << "Invoking destructor. clearing up" << endl;
+		cout << "Invoking destructor. clearing up, This is change!" << endl;
 		delete[] buffer;
 	}
 	
