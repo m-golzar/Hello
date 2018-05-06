@@ -1,4 +1,8 @@
-int add(int q, int w)
+#include <iostream>
+
+void Pause()
+
 {
-	return q + w;
+	int temp;
+	std::cin >> temp;
 }
